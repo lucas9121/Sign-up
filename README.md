@@ -1,1 +1,1 @@
-#[SignUp](https://lucas9121.github.io/Sign-up/)
+# [SignUp](https://lucas9121.github.io/Sign-up/)

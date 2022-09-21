@@ -4,14 +4,19 @@
 }
 
 main {
-    width: 600px;
+    width: clamp(360px, 100vw, 1200px);
+    height: 100vh;
     margin: 0 auto;
     background: floralwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main > h1 {
     text-align: center;
-    font-size: xxx-large;
+    font-size: clamp(38px, 3vw, 48px);
     margin-top: 0;
 }
 
@@ -45,10 +50,12 @@ form {
     width: max-content;
     font-weight: bold;
     cursor: pointer;
+    font-size: clamp(13px, 3vw, 16px);
 }
 
 input {
-    font-size: x-large;
+    font-size: 24px;
+    font-size: clamp(13px, 3vw, 24px);
     padding: 5px;
     border-radius: 5px;
     border: solid #8080808a;
@@ -80,6 +87,7 @@ span {
     flex: 1;
     flex: 1;
     font-size: large;
+    font-size: clamp(15px, 3vw, 18px);
     padding: 10px;
     border-radius: 5px;
     border: none;
